@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <!-- start game -->
+    <button class="start-game">start Game</button>
+
+    <!-- game-play -->
+    <article class="game-play">
+        <header>
+            <div class="first-header">
+<h5>Quiz Application</h5>
+<div class="time-left">time left <span class="stop-watch">05</span></div>
+            </div>
+            <div class="second-header horizontal-line"></div>
+        </header>
+        <main>
+            <div class="question-container">
+                <span class="number">3.</span>
+                <div class="question">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ipsum et quo animi voluptatibus vel suscipit sequi, repellat sunt dolor?</div>
+            </div>
+       <div class="option">
+    <button class="option-box"><span class="span-option">inredibly crazy </span> <span class="check-answer"></span></button>
+    <button class="option-box" ><span class="span-option">inredibly crazy</span> <span class="check-answer"></span></button>
+    <button class="option-box"><span class="span-option">inredibly crazy</span> <span class="check-answer"></span></button>
+    <button class="option-box"><span class="span-option">inredibly crazy</span> <span class="check-answer"></span></button>
+       </div>
+        </main>
+
+        <footer>
+            <div><span class="current-no">3</span> of <span class="total-no">50</span> Questions</div>
+            <button class="next-question">Next one</button>
+        </footer>
+    </article>
+<!-- rules container -->
+
+    <div class="rules-container">
+   <header>
+        <h6>
+            Some Rules of this Quiz
+        </h6>
+   </header>
+       <div class="rules">
+       <p>1. You have maximum of 15 seconds for each given question</p>
+       <p>2. You can only select an option, and your selected option can't be changed or deselected</p>
+       <p>3.Failure to choose an answer before the given time runs out automatically means you lost</p>
+       <p>1. You can't Exit the quiz while playing</p>
+       <p>1. For every correctly chosen answer, you will get a point</p>
+</div>
+<div class="rules-btn-container">
+<button>Exit Quiz</button>
+<button>Continue</button>
+</div>
+ </div>
+
+
+ <!-- result conatiner -->
+
+ <div class="result-container">
+<div class="result-words">You've completed the quiz and sorry🤨,you got only <span class="your-score">1</span> out of <span class="total-computer-questions">10</span></div>
+<div class="result-btn-container">
+<button>replay Quiz</button>
+<button>Quit Quiz</button>
+</div>
+ </div>
+</body>
+</html>
